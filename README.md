@@ -41,7 +41,7 @@ It features a "Supply & Demand" architecture—tracking **Inventory Count** sepa
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/taophycc/library-api.git](https://github.com/taophycc/library-api.git)
+    git clone https://github.com/taophycc/library-api.git
     cd library-api
     ```
 
@@ -53,7 +53,7 @@ It features a "Supply & Demand" architecture—tracking **Inventory Count** sepa
 3.  **Setup Database**
     Create a `.env` file (optional) or ensure your local Postgres instance is running. Then run the migrations to create the tables:
     ```bash
-    pnpm run db:migrate
+    pnpm run migrate
     ```
 
 4.  **Run the server**
